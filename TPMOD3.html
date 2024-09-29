@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri</title>
+</head>
+<body>
+    <h1>Profil Diri</h1>
+
+    <!-- Menggunakan tabel untuk menyusun bagian profil dan video perkenalan -->
+    <table border="1">
+        <tr>
+            <th>Foto Profil</th>
+            <th>Video Perkenalan</th>
+        </tr>
+        <tr>
+            <td>
+                <!-- Tag img digunakan untuk menampilkan gambar profil -->
+                <img src="NONFORMAL_RETSI ANDARI RUSLI.jpg" alt="Foto Profil" width="150" height="250">
+                <!-- Fungsi: Untuk menampilkan gambar profil pengguna -->
+            </td>
+            <td>
+                <!-- Tag video digunakan untuk menampilkan video perkenalan -->
+                <video width="320" height="240" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Video perkenalan tidak dapat diputar.
+                </video>
+                <!-- Fungsi: Untuk memutar video perkenalan -->
+            </td>
+        </tr>
+    </table>
+
+    <h2>Tentang Saya</h2>
+    <!-- Paragraf sederhana tentang diri -->
+    <p>Halo! Saya adalah pengembang web yang antusias dengan minat besar pada teknologi dan desain kreatif.</p>
+
+    <h2>Keterampilan</h2>
+    <!-- Tabel digunakan untuk menampilkan keterampilan dan tingkat kemahiran -->
+    <table border="1">
+        <tr>
+            <th>Keterampilan</th>
+            <th>Tingkat</th>
+        </tr>
+        <tr>
+            <td>HTML/CSS</td>
+            <td>Mahir</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Menengah</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>Pemula</td>
+        </tr>
+    </table>
+
+    <h2>Hubungi Saya</h2>
+    <!-- Formulir untuk menghubungi -->
+    <form action="#" method="post">
+        <!-- Tag input digunakan untuk menerima input teks -->
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br><br>
+        <!-- Fungsi: Untuk memasukkan nama pengirim -->
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <!-- Fungsi: Untuk memasukkan email pengirim -->
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea id="pesan" name="pesan" rows="4" cols="50"></textarea><br><br>
+        <!-- Fungsi: Untuk memasukkan pesan pengirim -->
+
+        <!-- Tag button digunakan untuk mengirim formulir -->
+        <button type="submit">Kirim Pesan</button>
+        <!-- Fungsi: Untuk mengirimkan pesan melalui formulir -->
+    </form>
+
+    <h2>Media Sosial</h2>
+    <!-- Div digunakan untuk menyusun tautan media sosial -->
+    <div>
+        <a href="https://www.linkedin.com/in/retsi-andari-rusli-87a30a284">LinkedIn</a> | 
+        <a href="https://github.com/RetsiAndari">GitHub</a> | 
+        <a href="https://x.com/RetRar?t=cPPBaOEJSXgw3G7JkKQ7Fg&s=09">Twitter</a>
+        <!-- Fungsi: Untuk memberikan tautan ke media sosial pengguna -->
+    </div>
+</body>
+</html>
